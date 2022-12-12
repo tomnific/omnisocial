@@ -118,7 +118,7 @@ class About extends React.PureComponent {
           <div className='about__header'>
             <Image blurhash={server.getIn(['thumbnail', 'blurhash'])} src={server.getIn(['thumbnail', 'url'])} srcSet={server.getIn(['thumbnail', 'versions'])?.map((value, key) => `${value} ${key.replace('@', '')}`).join(', ')} className='about__header__hero' />
             <h1>{isLoading ? <Skeleton width='10ch' /> : server.get('domain')}</h1>
-            <p><FormattedMessage id='about.powered_by' defaultMessage='Decentralized social media powered by {mastodon}' values={{ mastodon: <a href='https://joinmastodon.org' className='about__mail' target='_blank'>Mastodon</a> }} /></p>
+            <p><FormattedMessage id='about.powered_by' defaultMessage='Social media powered by {mastodon}' values={{ mastodon: <a href='https://omnicorp.one/' className='about__mail' target='_blank'>OMNI</a> }} /></p>
           </div>
 
           <div className='about__meta'>
@@ -181,7 +181,7 @@ class About extends React.PureComponent {
               </>
             ) : (domainBlocks.get('isAvailable') ? (
               <>
-                <p><FormattedMessage id='about.domain_blocks.preamble' defaultMessage='Mastodon generally allows you to view content from and interact with users from any other server in the fediverse. These are the exceptions that have been made on this particular server.' /></p>
+                <p><FormattedMessage id='about.domain_blocks.preamble' defaultMessage='OMNI generally allows you to view content from and interact with users from any other server in the OMNIverse. These are the exceptions that have been made on this particular server.' /></p>
 
                 <div className='about__domain-blocks'>
                   {domainBlocks.get('items').map(block => (
@@ -204,7 +204,7 @@ class About extends React.PureComponent {
           <LinkFooter />
 
           <div className='about__footer'>
-            <p><FormattedMessage id='about.disclaimer' defaultMessage='Mastodon is free, open-source software, and a trademark of Mastodon gGmbH.' /></p>
+            <p><FormattedMessage id='about.disclaimer' defaultMessage='OMNIsocial is free, open-source software, and a trademark of OMNI.' /></p>
           </div>
         </div>
 
