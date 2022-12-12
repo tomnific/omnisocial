@@ -1,3 +1,6 @@
+@import 'variables.scss';
+@import '_mixins.scss';
+
 .app-body {
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -2192,6 +2195,7 @@ a.account__display-name {
     }
 
     &__main {
+      border-style: solid 1px #B7904C  !important;
       box-sizing: border-box;
       width: 100%;
       flex: 0 0 auto;
@@ -2486,7 +2490,7 @@ $ui-header-height: 55px;
   }
 }
 
-@media screen and (max-width: $no-gap-breakpoint - 1px) {
+@media screen and (max-width: ($no-gap-breakpoint - 1px)) {
   $sidebar-width: 285px;
 
   .columns-area__panels__main {
@@ -2536,7 +2540,7 @@ $ui-header-height: 55px;
   }
 }
 
-@media screen and (max-width: $no-gap-breakpoint - 285px - 1px) {
+@media screen and (max-width: ($no-gap-breakpoint - 285px - 1px)) {
   $sidebar-width: 55px;
 
   .columns-area__panels__main {
@@ -2564,7 +2568,7 @@ $ui-header-height: 55px;
   display: none;
 }
 
-@media screen and (max-width: $no-gap-breakpoint - 1px) {
+@media screen and (max-width: ($no-gap-breakpoint - 1px)) {
   .columns-area__panels__pane--compositional {
     display: none;
   }
@@ -4666,7 +4670,7 @@ a.status-card.compact:hover {
 
 .search__input {
   @include search-input;
-
+  color: $ui-primary-color;
   display: block;
   padding: 15px;
   padding-right: 30px;
@@ -7471,7 +7475,7 @@ noscript {
     flex: 0 0 auto;
     position: relative;
 
-    @media screen and (max-width: 124px + 300px) {
+    @media screen and (max-width: (124px + 300px)) {
       width: 100%;
     }
   }
@@ -8029,7 +8033,7 @@ noscript {
     }
   }
 
-  @media screen and (max-width: $no-gap-breakpoint - 1px) {
+  @media screen and (max-width: ($no-gap-breakpoint - 1px)) {
     &__choices {
       display: block;
 
