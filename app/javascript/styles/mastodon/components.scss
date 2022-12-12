@@ -1,5 +1,5 @@
-@import 'variables.scss';
-@import '_mixins.scss';
+@import 'variables';
+//@import '_mixins';
 
 .app-body {
   -webkit-overflow-scrolling: touch;
@@ -2195,7 +2195,6 @@ a.account__display-name {
     }
 
     &__main {
-      border-style: solid 1px #B7904C  !important;
       box-sizing: border-box;
       width: 100%;
       flex: 0 0 auto;
@@ -4670,6 +4669,7 @@ a.status-card.compact:hover {
 
 .search__input {
   @include search-input;
+  
   color: $ui-primary-color;
   display: block;
   padding: 15px;
