@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/vgd0zsc.css");
+
 // Commonly used web colors
 $black: #000000;            // Black
 $white: #ffffff;            // White
@@ -55,6 +57,6 @@ $media-modal-media-max-height: 80%;
 
 $no-gap-breakpoint: 1175px;
 
-$font-sans-serif: 'mastodon-font-sans-serif' !default;
-$font-display: 'mastodon-font-display' !default;
-$font-monospace: 'mastodon-font-monospace' !default;
+$font-sans-serif: "lingua", sans-serif !default;
+$font-display: "lingua", sans-serif !default;
+$font-monospace: "lingua", sans-serif !default;
