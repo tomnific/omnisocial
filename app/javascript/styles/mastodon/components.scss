@@ -2,6 +2,14 @@
 
 // @import '_mixins';
 
+input[type=checkbox] {
+  accent-color: #b7904c;
+}
+
+input[type=radio] {
+  accent-color: #b7904c;
+}
+
 .app-body {
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
