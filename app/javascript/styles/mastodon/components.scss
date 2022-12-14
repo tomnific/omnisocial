@@ -1,4 +1,5 @@
 @import 'variables';
+@import url("https://use.typekit.net/vgd0zsc.css");
 
 // @import '_mixins';
 
@@ -8,6 +9,30 @@ input[type="checkbox"] {
 
 input[type="radio"] {
   accent-color: #b7904c;
+}
+
+p {
+  font-variant: small-caps;
+}
+
+textarea::placeholder {
+  font-variant: small-caps;
+}
+
+span {
+  font-variant: small-caps;
+}
+
+button {
+  font-variant: small-caps;
+}
+
+input::placeholder {
+  font-variant: small-caps;
+}
+
+a {
+  text-transform: uppercase;
 }
 
 .app-body {

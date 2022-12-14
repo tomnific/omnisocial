@@ -1,11 +1,13 @@
+@import url("https://use.typekit.net/vgd0zsc.css");
+
 // Dependent colors
 $black: #000000;
 $white: #ffffff;
 
-$classic-base-color: #282c37;
+$classic-base-color: gray;
 $classic-primary-color: #9baec8;
-$classic-secondary-color: #d9e1e8;
-$classic-highlight-color: #6364ff;
+$classic-secondary-color: gray;
+$classic-highlight-color: gray;
 
 // Differences
 $success-green: lighten(#3c754d, 8%);
@@ -42,3 +44,6 @@ $account-background-color: $white !default;
 }
 
 $emojis-requiring-inversion: 'chains';
+$no-gap-breakpoint: 1175px;
+$gold-star: #B7904C !default; 
+$error-red: #B7904C !default; 
