@@ -3515,7 +3515,7 @@ a.status-card.compact:hover {
 
 .load-more {
   display: block;
-  color: $dark-text-color;
+  color: $classic-highlight-color;
   background-color: transparent;
   border: 0;
   font-size: inherit;
@@ -4711,7 +4711,7 @@ a.status-card.compact:hover {
 
 .search__input {
   @include search-input;
-  
+
   color: $ui-primary-color;
   display: block;
   padding: 15px;
