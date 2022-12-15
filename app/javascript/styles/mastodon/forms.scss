@@ -418,8 +418,8 @@ code {
     outline: 0;
     font-family: inherit;
     resize: vertical;
-    background: darken($ui-base-color, 10%);
-    border: 1px solid darken($ui-base-color, 14%);
+    background: darken(#333333, 10%);
+    border: 1px solid darken($classic-highlight-color, 14%);
     border-radius: 4px;
     padding: 10px;
 
