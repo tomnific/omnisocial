@@ -47,6 +47,14 @@ h1 {
   color: $white;
 }
 
+.poll__link > span {
+  color: $classic-highlight-color;
+}
+
+.poll__footer > span {
+  color: $white;
+}
+
 .app-body {
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -1703,9 +1711,12 @@ a.account__display-name {
 
 .muted {
   .status__content,
-  .status__content p,
   .status__content a {
-    color: $dark-text-color;
+    color: $classic-highlight-color;
+  }
+
+  .status__content p {
+    color: $white;
   }
 
   .status__display-name strong {
@@ -7129,7 +7140,7 @@ noscript {
         small {
           display: block;
           font-size: 15px;
-          color: $darker-text-color;
+          color: $classic-highlight-color;
           font-weight: 400;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -7172,11 +7183,11 @@ noscript {
         width: auto;
         background: transparent;
         text-transform: uppercase;
-        color: $dark-text-color;
+        color: $classic-highlight-color;
       }
 
       dd {
-        color: $darker-text-color;
+        color: $white;
       }
 
       a {
@@ -7234,7 +7245,7 @@ noscript {
   }
 
   &__account-note {
-    color: $primary-text-color;
+    color: $white;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -7243,7 +7254,7 @@ noscript {
       display: block;
       font-size: 12px;
       font-weight: 500;
-      color: $darker-text-color;
+      color: $white;
       text-transform: uppercase;
       margin-bottom: 5px;
     }
@@ -7264,7 +7275,7 @@ noscript {
       border-radius: 4px;
 
       &::placeholder {
-        color: $dark-text-color;
+        color: $classic-highlight-color;
         opacity: 1;
       }
 
