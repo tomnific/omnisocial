@@ -43,6 +43,10 @@ h1 {
   font-variant: small-caps;
 }
 
+.button-secondary > span {
+  color: $white;
+}
+
 .app-body {
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -175,10 +179,11 @@ h1 {
   }
 
   &.button-secondary {
-    color: $darker-text-color;
-    background: transparent;
+    color: $ui-highlight-color;
+    //background: transparent;
     padding: 6px 17px;
     border: 1px solid $ui-primary-color;
+    opacity: 75%;
 
     &:active,
     &:focus,
