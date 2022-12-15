@@ -233,7 +233,7 @@ h1 {
 .icon-button {
   display: inline-block;
   padding: 0;
-  color: $action-button-color;
+  color: $white;
   border: 0;
   border-radius: 4px;
   background: transparent;
@@ -250,7 +250,7 @@ h1 {
   &:hover,
   &:active,
   &:focus {
-    color: lighten($action-button-color, 7%);
+    color: $action-button-color;
     background-color: rgba($action-button-color, 0.15);
     transition: all 200ms ease-out;
     transition-property: background-color, color;
@@ -337,7 +337,7 @@ h1 {
 }
 
 .text-icon-button {
-  color: $lighter-text-color;
+  color: $white;
   border: 0;
   border-radius: 4px;
   background: transparent;
@@ -518,8 +518,8 @@ h1 {
     box-sizing: border-box;
     width: 100%;
     margin: 0;
-    color: $inverted-text-color;
-    background: $simple-background-color;
+    color: $white;
+    background: #333333;
     padding: 10px;
     font-family: inherit;
     font-size: 14px;
@@ -528,7 +528,7 @@ h1 {
     outline: 0;
 
     &::placeholder {
-      color: $dark-text-color;
+      color: $white;
     }
 
     &:focus {
@@ -649,7 +649,7 @@ h1 {
     color: $inverted-text-color;
     font-family: inherit;
     font-size: 14px;
-    background: $simple-background-color;
+    background: #333333;
 
     .compose-form__upload-wrapper {
       overflow: hidden;
@@ -714,7 +714,7 @@ h1 {
 
   .compose-form__buttons-wrapper {
     padding: 10px;
-    background: darken($simple-background-color, 8%);
+    background: $classic-secondary-color;
     border-radius: 0 0 4px 4px;
     display: flex;
     justify-content: space-between;
@@ -770,7 +770,7 @@ h1 {
   font-family: $font-sans-serif, sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: $lighter-text-color;
+  color: $white;
 
   &.character-counter--over {
     color: $warning-red;
