@@ -31,8 +31,16 @@ input::placeholder {
   font-variant: small-caps;
 }
 
+h2 {
+  font-variant: small-caps;
+}
+
 a {
   text-transform: uppercase;
+}
+
+h1 {
+  font-variant: small-caps;
 }
 
 .app-body {
@@ -1152,7 +1160,7 @@ a {
   height: 40px;
   order: 2;
   flex: 0 0 auto;
-  color: $dark-text-color;
+  color: $white;
 }
 
 .notification__relative_time {
@@ -1167,7 +1175,7 @@ a {
 }
 
 .status__display-name {
-  color: $dark-text-color;
+  color: $classic-highlight-color;
 }
 
 .status__info .status__display-name {
@@ -2091,7 +2099,7 @@ a.account__display-name {
     &:hover,
     &:active {
       background: $ui-highlight-color;
-      color: $secondary-text-color;
+      color: $white;
       outline: 0;
     }
   }
@@ -2180,7 +2188,7 @@ a.account__display-name {
 
     &:hover {
       background: $ui-highlight-color;
-      color: $secondary-text-color;
+      color: $classic-base-color;
     }
   }
 }
@@ -3105,7 +3113,7 @@ $ui-header-height: 55px;
     &:focus,
     &:active {
       background: transparent;
-      color: $primary-text-color;
+      color: $classic-highlight-color;
     }
 
     &.active {
@@ -4191,7 +4199,7 @@ a.status-card.compact:hover {
 
 .empty-column-indicator,
 .follow_requests-unlocked_explanation {
-  color: $dark-text-color;
+  color: $white;
   background: $ui-base-color;
   text-align: center;
   padding: 20px;
@@ -4245,7 +4253,7 @@ a.status-card.compact:hover {
 
   &__message {
     text-align: center;
-    color: $darker-text-color;
+    color: $white;
     font-size: 15px;
     line-height: 22px;
 
@@ -8395,7 +8403,7 @@ noscript {
   font-size: 13px;
 
   p {
-    color: $dark-text-color;
+    color: $white;
     margin-bottom: 20px;
 
     strong {
@@ -8403,7 +8411,7 @@ noscript {
     }
 
     a {
-      color: $dark-text-color;
+      color: $classic-highlight-color;
       text-decoration: underline;
 
       &:hover,
